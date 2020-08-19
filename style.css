@@ -1,0 +1,43 @@
+      body{
+        background-color: #ddd;
+      }
+      .nav-color{
+        color: white;
+      }
+      .logo-img{
+        height: 70px;
+        width: 80px;
+        background-color: #fff;
+        border-radius: 20%;
+      }
+      .fofmb{
+        font-size: 2.5em;
+      }
+      .back-login{
+        height: auto;
+        padding: 2%;
+        border-radius: 2%;
+        
+      }
+      .login-img{
+        background: linear-gradient(to bottom, #edf3fc 0%, #1f252e 100%);
+
+      }
+      #backs{
+          width: 100%;
+          height: auto;
+      }
+      .login{
+        background: linear-gradient(to bottom, #edf3fc 0%, #1f252e 100%);
+      }
+      #lg{
+
+        font-size: 1.5em;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      form{
+        margin-top: 10px;
+        padding:10px;
+      }

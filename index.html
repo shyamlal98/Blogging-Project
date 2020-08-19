@@ -8,53 +8,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <title> Movie-Blogging</title>
-    <style type="text/css">
-      body{
-        background-color: #ddd;
-      }
-      .nav-color{
-        color: white;
-      }
-      .logo-img{
-        height: 70px;
-        width: 80px;
-        background-color: #fff;
-        border-radius: 20%;
-      }
-      .fofmb{
-        font-size: 2.5em;
-      }
-      .back-login{
-        height: auto;
-        padding: 2%;
-        border-radius: 2%;
-        
-      }
-      .login-img{
-        background: linear-gradient(to bottom, #edf3fc 0%, #1f252e 100%);
-
-      }
-      #backs{
-          width: 100%;
-          height: auto;
-      }
-      .login{
-        background: linear-gradient(to bottom, #edf3fc 0%, #1f252e 100%);
-      }
-      #lg{
-
-        font-size: 1.5em;
-        color: white;
-        padding: 20px;
-        text-align: center;
-      }
-      form{
-        margin-top: 10px;
-        padding:10px;
-      }
-    </style>
   </head>
   <body>
       <nav class="navbar navbar-expand-lg bg-primary">
@@ -126,7 +82,7 @@
               Welcome to <br>Movie-Blogging.Com
             </div>
             <div class="down">
-              <form >
+              <form name="myform" onsubmit="return(validate)">
                 <div class="form-group row text-white">
                   <label for="colFormLabel" class="col-4 col-form-label">Email</label>
                   <div class="col-8 ">
@@ -167,6 +123,21 @@
         </div>
       </div>
 
+      
+<script type = "text/javascript">
+   <!--
+      // Form validation code will come here.
+      function validate() {
+      
+         if( document.myForm.EMail.value == "" ) {
+            alert( "Please provide your Email!" );
+            document.myForm.EMail.focus() ;
+            return false;
+         }
+         return( true );
+      }
+   //-->
+</script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
