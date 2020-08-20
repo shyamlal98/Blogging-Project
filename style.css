@@ -11,7 +11,7 @@
         border-radius: 20%;
       }
       .fofmb{
-        font-size: 2.5em;
+        font-size: 2.5rem;
       }
       .back-login{
         height: auto;
@@ -31,13 +31,16 @@
         background: linear-gradient(to bottom, #edf3fc 0%, #1f252e 100%);
       }
       #lg{
-
-        font-size: 1.5em;
+        margin-top: 5%;
+        font-size: 1.5rem;
         color: white;
-        padding: 20px;
+        padding: 2%;
         text-align: center;
       }
       form{
-        margin-top: 10px;
-        padding:10px;
+        margin-top: 40%;
+        padding:2%;
+      }
+      #myform{
+
       }
