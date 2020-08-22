@@ -1,0 +1,47 @@
+/* @import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,700italic,900,900italic,400italic,300italic,300); */
+
+body {
+    background-color: rgb(240 116 116 / 0.8);
+}
+
+.logo-img {
+    height: 70px;
+    width: 80px;
+    background-color: #fff;
+    border-radius: 20%;
+}
+
+#lg {
+    margin-top: 10%;
+    font-size: 1.5rem;
+    color: white;
+    padding: 2%;
+    text-align: center;
+}
+
+.row {
+    min-height: 95vh;
+    background-color: rgb(202, 224, 74, 0.2);
+}
+
+#lg {
+    margin-top: 10%;
+    font-size: 1.5rem;
+    color: white;
+    padding: 2%;
+    text-align: center;
+}
+
+article {
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #ccc;
+}
+
+.social a {
+    padding: 0 .5em;
+}
+
+.page-header {
+    margin-bottom: 2rem;
+}

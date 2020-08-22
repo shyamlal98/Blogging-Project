@@ -1,46 +1,71 @@
-      body{
-        background-color: #ddd;
+      body {
+          background-color: rgb(122, 109, 105);
+          color: aliceblue;
       }
-      .nav-color{
-        color: white;
+      
+      .logo-img {
+          height: 70px;
+          width: 80px;
+          background: transparent;
+          border-radius: 20%;
       }
-      .logo-img{
-        height: 70px;
-        width: 80px;
-        background-color: #fff;
-        border-radius: 20%;
+      
+      #lg {
+          margin-top: 10%;
+          font-size: 1.5rem;
+          color: white;
+          padding: 2%;
+          text-align: center;
       }
-      .fofmb{
-        font-size: 2.5rem;
+      
+      article {
+          margin-bottom: 2em;
+          padding-bottom: 2em;
+          border-bottom: 1px solid #ccc;
       }
-      .back-login{
-        height: auto;
-        padding: 2%;
-        border-radius: 2%;
-        
+      
+      .container,
+      .page-header {
+          margin-top: 4rem;
       }
-      .login-img{
-        background: linear-gradient(to bottom, #edf3fc 0%, #1f252e 100%);
-
+      
+      .card-header {
+          color: forestgreen;
       }
-      #backs{
+      
+      .container-fluid {
+          margin-top: 8%!important;
+      }
+      
+      .lmc {
+          margin-left: 33%;
+      }
+      
+      article div div p::first-letter {
+          font-size: 200%;
+          color: #c8ff00;
+      }
+      
+      .pb-cmnt-container {
+          font-family: Lato;
+          margin-top: 2rem;
+      }
+      
+      .pb-cmnt-textarea {
+          padding: 2rem;
+          height: 130px;
           width: 100%;
-          height: auto;
+          border: 1px solid #F2F2F2;
       }
-      .login{
-        background: linear-gradient(to bottom, #edf3fc 0%, #1f252e 100%);
+      
+      #cmt {
+          visibility: hidden;
       }
-      #lg{
-        margin-top: 5%;
-        font-size: 1.5rem;
-        color: white;
-        padding: 2%;
-        text-align: center;
-      }
-      form{
-        margin-top: 40%;
-        padding:2%;
-      }
-      #myform{
-
+      
+      .footer {
+          max-height: 20rem;
+          background-color: rgba(0, 0, 0, 0.8);
+          border: 2px solid #c8ff00;
+          min-width: 90%;
+          padding: 2rem;
       }
