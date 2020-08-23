@@ -10,6 +10,4 @@ console.log(paraID.innerHTML);
 
 function readFullArticle() {
   paraID.innerHTML = oldValue;
-} // function openCmtArea() {
-//     cmtID.style.visibility = 'visible';
-// }
+}

@@ -60,17 +60,11 @@ form {
     box-sizing: border-box;
 }
 
-
-/* Style the input container */
-
 .input-container {
     display: flex;
     width: 100%;
     margin-bottom: 15px;
 }
-
-
-/* Style the form icons */
 
 .btn,
 .icon {
@@ -90,4 +84,12 @@ a:hover,
     opacity: 1;
     border-radius: 5rem;
     font-size: 1.5vw;
+}
+
+.footer {
+    max-height: 20rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid #c8ff00;
+    min-width: 90%;
+    padding: 2rem;
 }

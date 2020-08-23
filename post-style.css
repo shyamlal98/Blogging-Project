@@ -1,7 +1,7 @@
 /* @import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,700italic,900,900italic,400italic,300italic,300); */
 
 body {
-    background-color: rgb(240 116 116 / 0.8);
+    background: url('./images/dora.jpg');
 }
 
 .logo-img {
@@ -20,8 +20,11 @@ body {
 }
 
 .row {
+    margin: 9%;
     min-height: 95vh;
-    background-color: rgb(202, 224, 74, 0.2);
+    background-color: rgba(34, 23, 23, 0.7);
+    border-radius: 5%;
+    border: 2px solid #fff;
 }
 
 #lg {
@@ -44,4 +47,8 @@ article {
 
 .page-header {
     margin-bottom: 2rem;
+}
+
+.text-c {
+    color: tan!important;
 }
